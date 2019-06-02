@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>bai 5</title>
+</head>
+<body>
+		<script>
+			var DKT = parseFloat(prompt('Nhập vào điểm kiểm tra'));
+			var DGK = parseFloat(prompt('Nhập vào điểm thi giữa kỳ'));
+			var DCK = parseFloat(prompt('Nhập vào điểm thi cuối kỳ'));
+			DTB=parseFloat(DKT+DGK+DCK)/3;
+			if(DTB>=9){
+				alert('Điểm TB của bạn là: '+ DTB + ' Bạn xếp loại A');
+			}else if(DTB>=7){
+				alert('Điểm TB của bạn là: '+ DTB + ' Bạn xếp loại B');
+			}else if(DTB>=5){
+				alert('Điểm TB của bạn là: '+ DTB + ' Bạn xếp loại C');
+			}else if(DTB>=4){
+				alert('Điểm TB của bạn là: '+ DTB + ' Bạn xếp loại D');
+			}else{
+				alert('Điểm TB của bạn là: '+ DTB + ' Bạn xếp loại F');
+			}
+		</script>
+</body>
+</html>
